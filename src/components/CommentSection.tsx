@@ -12,7 +12,7 @@ interface Comment {
 interface CommentSectionProps {
   postId:string;
 }
-export default function CommentSection({postId} : CommentSectionProps) {
+export default function CommentSection({} : CommentSectionProps) {
   const [ comments , setComment ] = useState<Comment[]>([]);
   const [newComment, setNewComment] =useState('');
   const [authorName, setAuthorName] =useState('');

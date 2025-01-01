@@ -16,7 +16,7 @@ export default function AuthorCard() {
           </p>
         </div>
       </div>
-      <p className='mt-4 text-black leading-relaxed'>Sadia Waqas is an experienced SEO expert and also blogger.Feel free to contact me.It is a blog about online earning apps.Kindly check it out.I'm here to write SEO frinedly blog-post and articles on topic of your choice.</p>
+      <p className='mt-4 text-black leading-relaxed'>Sadia Waqas is an experienced SEO expert and also blogger.Feel free to contact me.It is a blog about online earning apps.Kindly check it out.I am here to write SEO frinedly blog-post and articles on topic of your choice.</p>
 
       <div className=' mt-4 space-x-3'>
         <a href='#' className='px-4 py-2 text-white bg-black rounded-md hover:bg-blue-950 transition duration-300'>Linkedin</a>

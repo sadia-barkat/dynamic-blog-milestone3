@@ -1,7 +1,7 @@
 'use client';
 import CommentSection from '@/components/CommentSection';
 import AuthorCard from '@/components/AuthorCard';
-import React, {use} from 'react'
+import React from 'react'
 
  const posts = [
 

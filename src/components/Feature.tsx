@@ -9,9 +9,9 @@ export default function Feature() {
         </h2>
 
         <p className='text-center m-4 mt-4 text-sm text-black sm:text-base md:mb-12 lg:mb-16 animate-fade-in-up delay-100'>
-          Hi!! Its Sadia..Join me to step into the world of IT...I'll create interesting blogs for you on your favourite topics.
+          Hi!! Its Sadia..Join me to step into the world of IT...I will create interesting blogs for you on your favourite topics.
           Nowadays Online earning is the easiest way to earn money.You can earn through joining these apps through your laptops or even with your mobile phones.
-          It's the easiest way of earning.Just create your account on the apps 
+          It is the easiest way of earning.Just create your account on the apps 
           like Fiver , Upwork , People per hour etc and show your skills in the world of IT.</p>
 
           <div className='mx-auto max-w-7xl px-5'></div>
@@ -25,7 +25,7 @@ export default function Feature() {
               "Linkedinn",
               "Tiktok",
               "Guru",
-            ].map((category, index)=>(
+            ].map((category)=>(
               <div className='relative group p-6 bg-white rounded-lg shadow-lg hover:bg-sky-400 hover:text-black transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer flex items-center  justify-center text-neutral-600'>
                 <p className='text-center text-lg font-semibold '>{category}</p>
                 <div className='absolute insert-0 border-2 border-transparent group-hover:border-white rounded-lg transition duration-300 ease-in-out'>

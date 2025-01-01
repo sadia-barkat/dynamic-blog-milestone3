@@ -1,6 +1,5 @@
 import React from 'react'
 import BlogCard from './BlogCard'
-import { title } from 'process'
 export default function Mega() {
   const posts = [
 
