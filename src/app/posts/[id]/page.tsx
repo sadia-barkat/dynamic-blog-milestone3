@@ -72,6 +72,8 @@ import React from 'react'
   }
   
   export default function Post({ params }: PostParams) {
+    console.log('Received params:', params);
+  
     const { id } = params;
     const post = posts.find((p) => p.id === id);
   
@@ -79,26 +81,24 @@ import React from 'react'
       return <h2 className="text-2xl font-bold text-center mt-10">Post not found</h2>;
     }
   
-    const renderParagraph = (description: string) =>
-      description.split('\n').map((para, index) => (
-        <p key={index} className="mt-4 text-justify">
-          {para.trim()}
-        </p>
-      ));
+    // Log post data
+    console.log('Post data:', post);
   
+    function renderParagraph(description: string): React.ReactNode {
+      throw new Error('Function not implemented.');
+    }
+
+    // Continue with your rendering
     return (
       <div className="max-w-3xl mx-auto p-5">
         <h1 className="md:text-4xl text-3xl font-bold text-red-600 text-center">{post.title}</h1>
-        {post.image && (
-          <img
-            src={post.image}
-            alt={post.title}
-            className="w-full h-auto rounded-md mt-4"
-          />
-        )}
-        <div className="mt-6 text-lg text-slate-700">{renderParagraph(post.description)}</div>
+        {post.image && <img src={post.image} alt={post.title} className="w-full h-auto rounded-md mt-4" />}
+        <div className="mt-6 text-lg text-slate-700">
+          {renderParagraph(post.description)}
+        </div>
         <CommentSection postId={post.id} />
         <AuthorCard />
       </div>
     );
   }
+  
