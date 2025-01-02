@@ -73,7 +73,7 @@ export default function Post({params } : {params: {id:string ;};}): React.JSX.El
     );
   }
   const renderParagraph =(description :string) => {
-    return description.split("/n").map((para, index) => (
+    return description.split("\n").map((para, index) => (
       <p key={index} className='mt-4 text-justify'>
         {para.trim()}
       </p>
