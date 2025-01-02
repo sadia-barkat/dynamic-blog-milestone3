@@ -15,27 +15,9 @@ export default function Feature() {
           like Fiver , Upwork , People per hour etc and show your skills in the world of IT.</p>
 
           <div className='mx-auto max-w-7xl px-5'></div>
-          <h1 className='text-3xl font-bold text-center my-8 text-red-600 animate-color-change '> How to Earn $5000 through online apps????</h1>
+          <h1 className='text-3xl font-bold text-center my-8 text-red-600 animate-color-change '>Are you interested to Earn through online apps????</h1>
 
-          <div className='grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6 animate-fade-in-up delay-100'>
-            {[
-              "Fiver",
-              "Upwork",
-              "People Per Hour",
-              "Linkedinn",
-              "Tiktok",
-              "Guru",
-            ].map((category)=>(
-              <div className='relative group p-6 bg-white rounded-lg shadow-lg hover:bg-sky-400 hover:text-black transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer flex items-center  justify-center text-neutral-600'>
-                <p className='text-center text-lg font-semibold '>{category}</p>
-                <div className='absolute insert-0 border-2 border-transparent group-hover:border-white rounded-lg transition duration-300 ease-in-out'>
-
-                </div>
-
-              </div>
-            ))
-            }
-          </div>
+         
 
       </section>
     </div>
