@@ -1,6 +1,5 @@
 import React from 'react'
 import BlogCard from './BlogCard'
-import Image from 'next/image'
 export default function Mega() {
   const posts = [
 
