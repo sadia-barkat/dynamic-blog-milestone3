@@ -63,7 +63,7 @@ import React from 'react'
      },  
   ]
 
-export default function Post({params } : {params: {id:string}}) {
+export default function Post({params } : {params: {id:string ;};}): React.JSX.Element {
   const {id} = params ;
   const post = posts.find((p) => p.id === id);
 
